@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: devfile-sample-gzbg
     spec:
       containers:
-      - image: nodejs-image:latest
+      - image: quay.io/pmacik-testing/tkrw-pr712-0075-0040-tenant/tkrw-pr712-0075-0040-app/devfile-sample-gzbg@sha256:898af5e81009230f20f8a67e0eb11266bb7b82615daa82eaefa29a5e1d68e3ea
         name: my-nodejs
         ports:
         - containerPort: 3001
